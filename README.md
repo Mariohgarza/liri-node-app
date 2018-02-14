@@ -31,7 +31,7 @@ I have to be able to pull some very cool info from a new twitter account , and s
    Plot of the movie.
    Actors in the movie.
    
-   I need to create different javascript files, install some npms as well , add some gitignore .
+   I need to create different javascript files, install and use npm's as well , add some gitignore .
   In here I tried to add as much details of the app as possible but in case I miss any fill free to check it out and enjoy the app.
   
   thanks for visiting 
