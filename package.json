@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "I am going to make an app that can take in one of the following commands, and answer back to the user with some cool info . (my version of Siri, but this is  console Liri)",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariohgarza/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariohgarza/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Mariohgarza/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "require": "^2.4.20",
+    "twitter": "^1.7.1"
+  }
+}
