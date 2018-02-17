@@ -157,7 +157,6 @@ var songName = process.argv[3];
       } else { console.log(error);}
     });
 
-console.log(instruction);
 
       		// MOVIES//
       }else  if (data.indexOf("movie-this")> -1){
@@ -172,7 +171,7 @@ console.log(instruction);
 			else {
 				movieName = "predator";
 			}
-			console.log(movieName);
+		
 			var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
 			request(queryUrl, function(error, response, body) {
 				if (!error && response.statusCode === 200) {
